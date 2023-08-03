@@ -1,9 +1,9 @@
 
  ### Dudas al whatsapp +573158680076.
-# UTILIZANDO LOGICA DE LOGIN ANTERIOR SE MEJORA LA SEGURIDAD CON HASHEO DE PASSWORD Y ESTRATEGOA LOCAL Y CON TERCEROS (GITHUB) MEDIANTE PASSPORT.
+# REESTRUCTURA DE NUESTRO SERVIDOR ECOMERCE.
 ###  SERVIDOR DE PRODUCTOS Y CARRITOS CON EXPRESS, VISTAS CON EXPRESS-HANDLEBARS, BASE DE DATOS MANEJADA CON MONGOOSE HACIA MONGO ATLAS (PRONTO TENDRÁ WEBSOCKET PARA CHAT CON SOCKETS.IO). 
 ### ADEMÁS TIENE: MANEJO DE VARIABLES DE ENTORNO CON dotenv CAMBIO DE VARIABLES DE ENTORNO DURANTE EJECUCIÓN CON cross-env, SE MUESTRAN RUTAS EN TABLA EN CONSOLA LADO BACKEND CON express-routemap, (PRONTO TENDRÁ MANEJO DE ARCHIVOS CON MULTER).
-### CORRESPONDE A ENTREGABLE 7 CLASE 21 MEJORA DE LOGIN CON BCRYPT Y PASSPORT.
+### CORRESPONDE A ENTREGABLE 9 CLASE 27.
 ...
 ### Como usar la app:
 <h2> Ruta de inicio, de entrada a la api:  http://localhost:8000/api/v1/  la cual redirige al login </h2>
@@ -21,29 +21,11 @@
         Para la paginación desde mongo atlas con limit, sort y query (método GET):
         http://localhost:8000/api/v1/views/products?page=1&limit=3&sort={"code":1}&query={"description": "Desde fromulario con socket"}
 ## Consigna. Se está requiriendo lo siguiente:
-- Con base en el login de nuestro entregable anterior, refactorizar para incluir los nuevos conceptos. ((Hecho)).
-
-- Se deberá contar con un hasheo de contraseña utilizando bcrypt.((Hecho)).
-
-- Se deberá contar con una implementación de passport, tanto para register como para login.((Hecho)).
-
-- Implementar el método de autenticación de GitHub a la vista de login. ((Hecho)).
-
+- 
 
 ### TESTEO:
 
-- Al cargar el proyecto, éste deberá comenzar en la pantalla de login. ((Hecho)).
-
-- Al no tener un usuario registrado aún, se procederá a hacer un registro, por lo que la pantalla de login debe tener un link de “regístrate”, el cual nos redireccione a la pantalla de registro. ((Hecho)).
-
-- Al registrarme con los datos solicitados, se revisará la contraseña guardada en la base de datos, cuidando que ésta esté correctamente hasheada. ((Hecho)).
-
-- Se realizará el proceso de login con las mismas credenciales con las que se registró el usuario, corroborando que el login funcione correctamente y redirija a la pantalla principal. ((Hecho)).
-
-- Además, la pantalla de login deberá contar con un botón “entrar con Github” el cual al hacer click nos permita entrar directamente a la página con los datos obtenidos de Github. ((Hecho)).
-
-- Se corroborará en la base de datos que el nuevo usuario “creado con Github” cuente con un password vacío. ((Hecho)).
-
+- 
 ### Formato
 
 - Link al repositorio de Github con el proyecto completo, sin la carpeta de node_modules. ((Hecho)).
